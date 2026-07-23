@@ -1,0 +1,283 @@
+route_id,route_short_name,route_long_name,scheduled_trips,wheelchair_guaranteed_trips,wheelchair_explicit_ratio,wheelchair_explicit_percentage,wheelchair_data_coverage_percentage,bicycle_guaranteed_trips,bicycle_explicit_ratio,bicycle_explicit_percentage,bicycle_data_coverage_percentage
+gr:nmbssncb:1786,EC,Breda (NL) -- Bruxelles-Midi,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:948,IC,Anvers-Central -- Binche,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:506,IC,Anvers-Central -- Charleroi-Central,36,0,0.0,0.0,0.0,36,1.0,100.0,100.0
+gr:nmbssncb:419,IC,Anvers-Central -- Courtrai,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:217,IC,Anvers-Central -- Gand-Saint-Pierre,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1118,IC,Anvers-Central -- Hamont,33,0,0.0,0.0,0.0,33,1.0,100.0,100.0
+gr:nmbssncb:135,IC,Anvers-Central -- Hasselt,66,0,0.0,0.0,0.0,66,1.0,100.0,100.0
+gr:nmbssncb:936,IC,Anvers-Central -- La Panne,31,0,0.0,0.0,0.0,31,1.0,100.0,100.0
+gr:nmbssncb:150,IC,Anvers-Central -- Louvain,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:117,IC,Anvers-Central -- Mol,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1122,IC,Anvers-Central -- Neerpelt,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:468,IC,Anvers-Central -- Ostende,34,0,0.0,0.0,0.0,34,1.0,100.0,100.0
+gr:nmbssncb:1519,IC,Anvers-Central -- Poperinge,37,0,0.0,0.0,0.0,37,1.0,100.0,100.0
+gr:nmbssncb:894,IC,Anvers-Central -- Tongres,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:608,IC,Anvers-Central -- Turnhout,33,0,0.0,0.0,0.0,33,1.0,100.0,100.0
+gr:nmbssncb:460,IC,Ath -- Courtrai,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:967,IC,Ath -- Termonde,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:276,IC,Bruges -- Blankenberge,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:92,IC,Bruges -- Courtrai,27,0,0.0,0.0,0.0,27,1.0,100.0,100.0
+gr:nmbssncb:75,IC,Bruges -- Knokke,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:819,IC,Brussels Airport-Zaventem -- Audenarde,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:817,IC,Brussels Airport-Zaventem -- Courtrai,5,0,0.0,0.0,0.0,5,1.0,100.0,100.0
+gr:nmbssncb:860,IC,Brussels Airport-Zaventem -- Dinant,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:794,IC,Brussels Airport-Zaventem -- Gand-Saint-Pierre,36,0,0.0,0.0,0.0,36,1.0,100.0,100.0
+gr:nmbssncb:1030,IC,Brussels Airport-Zaventem -- Mons,37,0,0.0,0.0,0.0,37,1.0,100.0,100.0
+gr:nmbssncb:821,IC,Brussels Airport-Zaventem -- Ostende,30,0,0.0,0.0,0.0,30,1.0,100.0,100.0
+gr:nmbssncb:1032,IC,Brussels Airport-Zaventem -- Quévy,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:718,IC,Brussels Airport-Zaventem -- Tournai,36,0,0.0,0.0,0.0,36,1.0,100.0,100.0
+gr:nmbssncb:151,IC,Bruxelles-Midi -- Anvers-Central,38,0,0.0,0.0,0.0,38,1.0,100.0,100.0
+gr:nmbssncb:164,IC,Bruxelles-Midi -- Arlon,10,0,0.0,0.0,0.0,10,1.0,100.0,100.0
+gr:nmbssncb:125,IC,Bruxelles-Midi -- Brussels Airport-Zaventem,7,0,0.0,0.0,0.0,7,1.0,100.0,100.0
+gr:nmbssncb:181,IC,Bruxelles-Midi -- Ciney,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:510,IC,Bruxelles-Midi -- Essen,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:405,IC,Bruxelles-Midi -- Gand-Saint-Pierre,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1005,IC,Bruxelles-Midi -- Genk,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:838,IC,Bruxelles-Midi -- Liège-Saint-Lambert,30,0,0.0,0.0,0.0,30,1.0,100.0,100.0
+gr:nmbssncb:192,IC,Bruxelles-Midi -- Rochefort-Jemelle,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:275,IC,Bruxelles-Nord -- Blankenberge,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:767,IC,Bruxelles-Nord -- Charleroi-Central,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:228,IC,Charleroi-Central -- Mons,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:764,IC,Essen -- Charleroi-Central,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:559,IC,Eupen -- Ostende,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:1019,IC,Gand-Saint-Pierre -- Alost,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:492,IC,Gand-Saint-Pierre -- Courtrai,5,0,0.0,0.0,0.0,5,1.0,100.0,100.0
+gr:nmbssncb:444,IC,Gand-Saint-Pierre -- La Panne,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:434,IC,Gand-Saint-Pierre -- Termonde,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:264,IC,Genk -- Blankenberge,11,0,0.0,0.0,0.0,11,1.0,100.0,100.0
+gr:nmbssncb:266,IC,Genk -- Gand-Saint-Pierre,33,0,0.0,0.0,0.0,33,1.0,100.0,100.0
+gr:nmbssncb:268,IC,Hasselt -- Blankenberge,20,0,0.0,0.0,0.0,20,1.0,100.0,100.0
+gr:nmbssncb:265,IC,Hasselt -- Bruges,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:267,IC,Hasselt -- Gand-Saint-Pierre,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:301,IC,Hasselt -- Quiévrain,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1062,IC,Herstal -- Charleroi-Central,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1037,IC,Herstal -- Mons,34,0,0.0,0.0,0.0,34,1.0,100.0,100.0
+gr:nmbssncb:274,IC,Landen -- Blankenberge,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:916,IC,Landen -- Knokke,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:739,IC,Lille Flandres (FR) -- Anvers-Central,29,0,0.0,0.0,0.0,29,1.0,100.0,100.0
+gr:nmbssncb:742,IC,Lille Flandres (FR) -- Courtrai,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:759,IC,Lille Flandres (FR) -- Namur,46,0,0.0,0.0,0.0,46,1.0,100.0,100.0
+gr:nmbssncb:758,IC,Lille Flandres (FR) -- Tournai,11,0,0.0,0.0,0.0,11,1.0,100.0,100.0
+gr:nmbssncb:909,IC,Liège-Guillemins -- Bruges,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:14,IC,Liège-Guillemins -- Gouvy,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:910,IC,Liège-Guillemins -- Knokke,22,0,0.0,0.0,0.0,22,1.0,100.0,100.0
+gr:nmbssncb:915,IC,Liège-Guillemins -- Ostende,14,0,0.0,0.0,0.0,14,1.0,100.0,100.0
+gr:nmbssncb:194,IC,Liège-Saint-Lambert -- Namur,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:843,IC,Liège-Saint-Lambert -- Ostende,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:839,IC,Liège-Saint-Lambert -- Tournai,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:285,IC,Louvain -- Bruges,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1256,IC,Louvain -- Charleroi-Central,36,0,0.0,0.0,0.0,36,1.0,100.0,100.0
+gr:nmbssncb:368,IC,Louvain -- Courtrai,30,0,0.0,0.0,0.0,30,1.0,100.0,100.0
+gr:nmbssncb:273,IC,Louvain -- Gand-Saint-Pierre,33,0,0.0,0.0,0.0,33,1.0,100.0,100.0
+gr:nmbssncb:369,IC,Louvain -- Ostende,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:462,IC,Louvain -- Termonde,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:707,IC,Luxembourg (LU) -- Arlon,8,0,0.0,0.0,0.0,8,1.0,100.0,100.0
+gr:nmbssncb:163,IC,Luxembourg (LU) -- Bruxelles-Midi,23,0,0.0,0.0,0.0,23,1.0,100.0,100.0
+gr:nmbssncb:709,IC,Luxembourg (LU) -- Gouvy,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:529,IC,Luxembourg (LU) -- Liège-Guillemins,33,0,0.0,0.0,0.0,33,1.0,100.0,100.0
+gr:nmbssncb:779,IC,Luxembourg (LU) -- Namur,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:143,IC,Malines -- Louvain,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:964,IC,Mouscron -- Termonde,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:442,IC,Namur -- Charleroi-Central,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1783,IC,Namur -- Courtrai,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:167,IC,Namur -- Dinant,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:480,IC,Namur -- Mons,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1044,IC,Namur -- Mouscron,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:479,IC,Namur -- Tournai,6,0,0.0,0.0,0.0,6,1.0,100.0,100.0
+gr:nmbssncb:79,IC,Ostende -- Courtrai,11,0,0.0,0.0,0.0,11,1.0,100.0,100.0
+gr:nmbssncb:1258,IC,Ottignies -- Charleroi-Central,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1205,IC,Schaerbeek -- Courtrai,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:965,IC,Termonde -- Courtrai,31,0,0.0,0.0,0.0,31,1.0,100.0,100.0
+gr:nmbssncb:296,IC,Tongres -- Mons,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:300,IC,Tongres -- Quiévrain,28,0,0.0,0.0,0.0,28,1.0,100.0,100.0
+gr:nmbssncb:395,IC,Tongres -- Saint-Ghislain,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:8,IC,Tournai -- Courtrai,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:961,IC,Tournai -- Termonde,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:984,IC,Turnhout -- Binche,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:996,IC,Turnhout -- La Louvière-Sud,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:182,IC,Welkenraedt -- Eupen,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1130,IC,Welkenraedt -- Ostende,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:918,L,Anvers-Central -- Hasselt,28,0,0.0,0.0,0.0,28,1.0,100.0,100.0
+gr:nmbssncb:917,L,Anvers-Central -- Louvain,38,0,0.0,0.0,0.0,38,1.0,100.0,100.0
+gr:nmbssncb:324,L,Ath -- Grammont,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:291,L,Audenarde -- Courtrai,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:287,L,Audenarde -- Zottegem,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1126,L,Binche -- Braine-le-Comte,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:557,L,Bruges -- Gand-Saint-Pierre,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1295,L,Ciney -- Libramont,15,0,0.0,0.0,0.0,15,1.0,100.0,100.0
+gr:nmbssncb:849,L,Hasselt -- Louvain,37,0,0.0,0.0,0.0,37,1.0,100.0,100.0
+gr:nmbssncb:543,L,Hasselt -- Mol,6,0,0.0,0.0,0.0,6,1.0,100.0,100.0
+gr:nmbssncb:1127,L,La Louvière-Sud -- Braine-le-Comte,25,0,0.0,0.0,0.0,25,1.0,100.0,100.0
+gr:nmbssncb:16,L,Libramont -- Arlon,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:1275,L,Libramont -- Athus,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:18,L,Libramont -- Bertrix,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1245,L,Liers -- Marloie,29,0,0.0,0.0,0.0,29,1.0,100.0,100.0
+gr:nmbssncb:546,L,Liers -- Rochefort-Jemelle,5,0,0.0,0.0,0.0,5,1.0,100.0,100.0
+gr:nmbssncb:1187,L,Liège-Guillemins -- Huy,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1188,L,Liège-Guillemins -- Namur,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:10,L,Louvain -- Landen,6,0,0.0,0.0,0.0,6,1.0,100.0,100.0
+gr:nmbssncb:902,L,Louvain -- Saint-Nicolas,35,0,0.0,0.0,0.0,35,1.0,100.0,100.0
+gr:nmbssncb:1265,L,Luxembourg (LU) -- Arlon,17,0,0.0,0.0,0.0,17,1.0,100.0,100.0
+gr:nmbssncb:1171,L,Luxembourg (LU) -- Athus,77,0,0.0,0.0,0.0,77,1.0,100.0,100.0
+gr:nmbssncb:1266,L,Luxembourg (LU) -- Libramont,31,0,0.0,0.0,0.0,31,1.0,100.0,100.0
+gr:nmbssncb:1243,L,Malines -- Bruges,8,0,0.0,0.0,0.0,8,1.0,100.0,100.0
+gr:nmbssncb:415,L,Malines -- Gand-Saint-Pierre,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:398,L,Malines -- Termonde,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1250,L,Malines -- Zeebrugge-Strand,26,0,0.0,0.0,0.0,26,1.0,100.0,100.0
+gr:nmbssncb:322,L,Mons -- Braine-le-Comte,34,0,0.0,0.0,0.0,34,1.0,100.0,100.0
+gr:nmbssncb:21,L,Mons -- Grammont,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:19,L,Mons -- Quévy,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:478,L,Mons -- Tournai,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1174,L,Mouscron -- Grammont,6,0,0.0,0.0,0.0,6,1.0,100.0,100.0
+gr:nmbssncb:1289,L,Namur -- Bertrix,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:43,L,Namur -- Ciney,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:171,L,Namur -- Dinant,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:618,L,Namur -- Libramont,30,0,0.0,0.0,0.0,30,1.0,100.0,100.0
+gr:nmbssncb:44,L,Ottignies -- Namur,34,0,0.0,0.0,0.0,34,1.0,100.0,100.0
+gr:nmbssncb:1142,L,Quévy -- La Louvière-Sud,30,0,0.0,0.0,0.0,30,1.0,100.0,100.0
+gr:nmbssncb:38,L,Rochefort-Jemelle -- Ciney,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:639,L,Spa-Géronstère -- Welkenraedt,31,0,0.0,0.0,0.0,31,1.0,100.0,100.0
+gr:nmbssncb:430,L,Tournai -- Grammont,26,0,0.0,0.0,0.0,26,1.0,100.0,100.0
+gr:nmbssncb:443,L,Zeebrugge-Strand -- Termonde,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:289,L,Zottegem -- Courtrai,31,0,0.0,0.0,0.0,31,1.0,100.0,100.0
+gr:nmbssncb:1145,NJ,Wien HBF (AT) -- Bruxelles-Midi,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1192,OTC,Paris Nord (FR) -- Bruxelles-Midi,6,0,0.0,0.0,0.0,6,1.0,100.0,100.0
+gr:nmbssncb:1780,P,Alost -- Grammont,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1616,P,Anvers-Central -- Aarschot,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1613,P,Anvers-Central -- Essen,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1609,P,Anvers-Central -- Noorderkempen (Brecht),1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1681,P,Beauraing -- Libramont,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1667,P,Bertrix -- Athus,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1712,P,Bruges -- Courtrai,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1552,P,Bruges -- Gand-Saint-Pierre,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:457,P,Bruges -- Knokke,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1610,P,Brussels Airport-Zaventem -- Noorderkempen (Brecht),1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1628,P,Bruxelles-Midi -- Liège-Guillemins,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1657,P,Bruxelles-Midi -- Namur,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1607,P,Bruxelles-Midi -- Neerpelt,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1655,P,Bruxelles-Midi -- Rochefort-Jemelle,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1688,P,Charleroi-Central -- Couvin,8,0,0.0,0.0,0.0,8,1.0,100.0,100.0
+gr:nmbssncb:1689,P,Charleroi-Central -- Walcourt,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1673,P,Ciney -- Libramont,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1588,P,Courtrai -- Poperinge,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1718,P,Courtrai -- Roulers,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1674,P,Dinant -- Bertrix,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1373,P,Gand-Saint-Pierre -- Alost,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1719,P,Gand-Saint-Pierre -- Courtrai,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1716,P,Gand-Saint-Pierre -- Grammont,5,0,0.0,0.0,0.0,5,1.0,100.0,100.0
+gr:nmbssncb:1684,P,Gembloux -- Jemeppe-sur-Sambre,9,0,0.0,0.0,0.0,9,1.0,100.0,100.0
+gr:nmbssncb:1663,P,Gembloux -- Namur,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1683,P,Gembloux -- Tamines,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1623,P,Hasselt -- Louvain,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1710,P,Knokke -- Courtrai,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1679,P,Libramont -- Arlon,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1680,P,Libramont -- Athus,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1682,P,Libramont -- Virton,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1635,P,Liège-Guillemins -- Gouvy,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1759,P,Liège-Guillemins -- Rochefort-Jemelle,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1671,P,Liège-Saint-Lambert -- Rochefort-Jemelle,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1728,P,Louvain -- Bruges,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:708,P,Luxembourg (LU) -- Arlon,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1659,P,Luxembourg (LU) -- Marloie,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1626,P,Malines -- Louvain,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1592,P,Malines -- Saint-Nicolas,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1691,P,Manage -- Braine-le-Comte,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1658,P,Marloie -- Arlon,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:519,P,Mons -- Quévy,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:542,P,Mons -- Tournai,6,0,0.0,0.0,0.0,6,1.0,100.0,100.0
+gr:nmbssncb:1752,P,Namur -- Rochefort-Jemelle,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1707,P,Ostende -- Courtrai,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1662,P,Ottignies -- Gembloux,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1664,P,Ottignies -- Namur,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1670,P,Rochefort-Jemelle -- Libramont,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1374,P,Schaerbeek -- Gand-Saint-Pierre,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1685,P,Schaerbeek -- Jemeppe-sur-Sambre,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:33,P,Schaerbeek -- La Panne,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1641,P,Schaerbeek -- Mouscron,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1328,P,Schaerbeek -- Ostende,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1365,P,Schaerbeek -- Poperinge,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1693,P,Schaerbeek -- Quiévrain,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1700,P,Schaerbeek -- Quévy,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1696,P,Schaerbeek -- Saint-Ghislain,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1375,P,Schaerbeek -- Saint-Nicolas,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:40,P,Schaerbeek -- Tamines,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1665,P,Virton -- Athus,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1714,P,Zottegem -- Courtrai,6,0,0.0,0.0,0.0,6,1.0,100.0,100.0
+gr:nmbssncb:731,S1,Anvers-Central -- Charleroi-Central,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:629,S1,Bruxelles-Midi -- Anvers-Central,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:748,S1,Bruxelles-Nord -- Nivelles,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:631,S1,Nivelles -- Anvers-Central,62,0,0.0,0.0,0.0,62,1.0,100.0,100.0
+gr:nmbssncb:637,S1,Schaerbeek -- Nivelles,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:770,S10,Bruxelles-Midi -- Alost,9,0,0.0,0.0,0.0,9,1.0,100.0,100.0
+gr:nmbssncb:772,S10,Termonde -- Alost,58,0,0.0,0.0,0.0,58,1.0,100.0,100.0
+gr:nmbssncb:1089,S19,Brussels Airport-Zaventem -- Charleroi-Central,34,0,0.0,0.0,0.0,34,1.0,100.0,100.0
+gr:nmbssncb:1022,S2,Louvain -- Braine-le-Comte,64,0,0.0,0.0,0.0,64,1.0,100.0,100.0
+gr:nmbssncb:942,S20,Ottignies -- Louvain,62,0,0.0,0.0,0.0,62,1.0,100.0,100.0
+gr:nmbssncb:1306,S20,Ottignies -- Wavre,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:799,S3,Bruxelles-Midi -- Termonde,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:803,S3,Bruxelles-Nord -- Denderleeuw,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:815,S3,Enghien -- Grammont,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:286,S3,Grammont -- Denderleeuw,36,0,0.0,0.0,0.0,36,1.0,100.0,100.0
+gr:nmbssncb:1647,S3,Schaerbeek -- Grammont,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:802,S3,Termonde -- Denderleeuw,29,0,0.0,0.0,0.0,29,1.0,100.0,100.0
+gr:nmbssncb:798,S3,Termonde -- Grammont,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:830,S32,Anvers-Central -- Essen,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:832,S32,Anvers-Central -- Puurs,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:831,S32,Essen -- Puurs,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:876,S32,Roosendaal (NL) -- Anvers-Central,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:875,S32,Roosendaal (NL) -- Boom,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:878,S32,Roosendaal (NL) -- Puurs,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:931,S33,Anvers-Central -- Mol,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:258,S34,Anvers-Central -- Lokeren,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:257,S34,Anvers-Central -- Termonde,34,0,0.0,0.0,0.0,34,1.0,100.0,100.0
+gr:nmbssncb:252,S34,Termonde -- Saint-Nicolas,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1323,S35,Anvers-Central -- Noorderkempen (Brecht),38,0,0.0,0.0,0.0,38,1.0,100.0,100.0
+gr:nmbssncb:789,S4,Bruxelles-Luxembourg -- Alost,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:1302,S4,Louvain-la-Neuve -- Alost,36,0,0.0,0.0,0.0,36,1.0,100.0,100.0
+gr:nmbssncb:1193,S41,Aachen Hbf (DE) -- Liège-Guillemins,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1198,S41,Aachen Hbf (DE) -- Liège-Saint-Lambert,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:1233,S41,Hasselt -- Liège-Guillemins,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:1235,S41,Hasselt -- Tongres,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1199,S41,Liège-Saint-Lambert -- Welkenraedt,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1219,S42,Liers -- Flémalle-Haute,33,0,0.0,0.0,0.0,33,1.0,100.0,100.0
+gr:nmbssncb:293,S43,Maastricht (NL) -- Liège-Guillemins,38,0,0.0,0.0,0.0,38,1.0,100.0,100.0
+gr:nmbssncb:1211,S44,Liège-Guillemins -- Waremme,36,0,0.0,0.0,0.0,36,1.0,100.0,100.0
+gr:nmbssncb:973,S5,Hal -- Malines,36,0,0.0,0.0,0.0,36,1.0,100.0,100.0
+gr:nmbssncb:1644,S51,Audenarde -- Eeklo,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1646,S51,Gand-Saint-Pierre -- Renaix,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1643,S51,Renaix -- Eeklo,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:700,S52,Gand-Saint-Pierre -- Grammont,42,0,0.0,0.0,0.0,42,1.0,100.0,100.0
+gr:nmbssncb:1319,S53,Audenarde -- Lokeren,20,0,0.0,0.0,0.0,20,1.0,100.0,100.0
+gr:nmbssncb:1307,S53,Gand-Saint-Pierre -- Lokeren,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1313,S53,Renaix -- Lokeren,12,0,0.0,0.0,0.0,12,1.0,100.0,100.0
+gr:nmbssncb:1104,S61,Charleroi-Central -- Tamines,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1100,S61,Jambes -- Charleroi-Central,28,0,0.0,0.0,0.0,28,1.0,100.0,100.0
+gr:nmbssncb:1157,S61,Namur -- Charleroi-Central,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1163,S61,Ottignies -- Charleroi-Central,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1103,S61,Ottignies -- Jambes,6,0,0.0,0.0,0.0,6,1.0,100.0,100.0
+gr:nmbssncb:1160,S61,Ottignies -- Namur,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1167,S61,Wavre -- Charleroi-Central,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1149,S61,Wavre -- Jambes,22,0,0.0,0.0,0.0,22,1.0,100.0,100.0
+gr:nmbssncb:1155,S61,Wavre -- Namur,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1114,S62,Charleroi-Central -- La Louvière-Sud,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:1110,S62,Luttre -- Charleroi-Central,30,0,0.0,0.0,0.0,30,1.0,100.0,100.0
+gr:nmbssncb:1108,S62,Luttre -- La Louvière-Sud,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:754,S63,Erquelinnes -- Charleroi-Central,15,0,0.0,0.0,0.0,15,1.0,100.0,100.0
+gr:nmbssncb:755,S63,Maubeuge (FR) -- Charleroi-Central,18,0,0.0,0.0,0.0,18,1.0,100.0,100.0
+gr:nmbssncb:1067,S64,Charleroi-Central -- Couvin,31,0,0.0,0.0,0.0,31,1.0,100.0,100.0
+gr:nmbssncb:956,S7,Hal -- Malines,32,0,0.0,0.0,0.0,32,1.0,100.0,100.0
+gr:nmbssncb:1071,S8,Louvain-la-Neuve -- Audenarde,3,0,0.0,0.0,0.0,3,1.0,100.0,100.0
+gr:nmbssncb:1076,S8,Louvain-la-Neuve -- Bruxelles-Midi,5,0,0.0,0.0,0.0,5,1.0,100.0,100.0
+gr:nmbssncb:1073,S8,Louvain-la-Neuve -- Zottegem,59,0,0.0,0.0,0.0,59,1.0,100.0,100.0
+gr:nmbssncb:1077,S8,Namur -- Zottegem,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:1080,S8,Ottignies -- Louvain-la-Neuve,4,0,0.0,0.0,0.0,4,1.0,100.0,100.0
+gr:nmbssncb:1079,S8,Ottignies -- Zottegem,1,0,0.0,0.0,0.0,1,1.0,100.0,100.0
+gr:nmbssncb:969,S9,Nivelles -- Landen,30,0,0.0,0.0,0.0,30,1.0,100.0,100.0
+gr:nmbssncb:970,S9,Nivelles -- Louvain,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:649,T,Bruges -- Knokke,12,0,0.0,0.0,0.0,12,1.0,100.0,100.0
+gr:nmbssncb:653,T,Charleroi-Central -- Blankenberge,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:670,T,Gand-Saint-Pierre -- La Panne,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:656,T,Neerpelt -- Blankenberge,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:658,T,Schaerbeek -- Ostende,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
+gr:nmbssncb:660,T,Tongres -- Ostende,2,0,0.0,0.0,0.0,2,1.0,100.0,100.0
