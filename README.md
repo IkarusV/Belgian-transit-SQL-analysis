@@ -4,6 +4,9 @@ RailPulse is a SQL analysis project built from the official SNCB/NMBS public tra
 
 Python handles the download, CSV reading, database insertion, and presentation layer. The analytical calculations stay in SQL.
 
+<img width="969" height="1238" alt="image" src="https://github.com/user-attachments/assets/06aeb27a-2084-4fb5-b960-5e1c5af02263" />
+
+
 ## Main Results
 
 The included reports were generated for 22 July 2026.
@@ -33,8 +36,6 @@ https://api.irail.be/v1/liveboard
 ```
 
 Neither endpoint requires an API key for this level of use. Static GTFS contains planned schedules. iRail provides current delays, cancellations, and platforms.
-
-Source: NMBS-SNCB Open Data, licensed under CC BY 4.0.
 
 ## Architecture
 
@@ -234,6 +235,8 @@ GTFS Static contains planned schedules, not actual historical performance. The i
 Empty GTFS accessibility fields mean that availability is unknown, not that access is impossible. The project reports only features explicitly guaranteed by the feed.
 
 The current feed marks bicycle storage as available on every active train trip but leaves wheelchair accessibility unspecified. Replacement buses are excluded from the train-route audit. Since every train route has the same values, the project reports that no weakest route can be distinguished instead of creating a misleading ranking.
+<img width="1051" height="957" alt="image" src="https://github.com/user-attachments/assets/770bda8b-ac93-41ba-9927-690ddc643cfc" />
+
 
 ## Timeline
 
