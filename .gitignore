@@ -19,3 +19,6 @@ data/*_build.db
 
 # Local Streamlit secrets
 .streamlit/secrets.toml
+
+# Personal presentation notes
+INTERVIEW_PREP.md

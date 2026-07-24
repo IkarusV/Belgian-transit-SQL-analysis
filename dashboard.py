@@ -1,4 +1,6 @@
+import csv
 import html
+import json
 import sqlite3
 from datetime import datetime
 from pathlib import Path
@@ -12,6 +14,17 @@ import streamlit as st
 BASE_DIR = Path(__file__).resolve().parent
 DATABASE_PATH = BASE_DIR / "data" / "railpulse.db"
 SQL_PATH = BASE_DIR / "sql" / "analysis.sql"
+RESULTS_DIR = BASE_DIR / "results"
+METADATA_PATH = RESULTS_DIR / "report_metadata.json"
+GITHUB_URL = "https://github.com/IkarusV/Belgian-transit-SQL-analysis"
+
+REPORT_FILES = [
+    "peak_hour.csv",
+    "busiest_platforms.csv",
+    "morning_destinations.csv",
+    "service_frequency.csv",
+    "route_accessibility.csv",
+]
 
 
 # Step 1 load data from SQLite
@@ -27,6 +40,58 @@ def run_query(connection, query):
     cursor = connection.execute(query)
     columns = [column[0] for column in cursor.description]
     return [dict(zip(columns, row)) for row in cursor.fetchall()]
+
+
+def parse_csv_value(value):
+    """Turn CSV numbers back into int or float values when possible."""
+    if value == "":
+        return None
+
+    try:
+        return int(value)
+    except ValueError:
+        try:
+            return float(value)
+        except ValueError:
+            return value
+
+
+def load_csv_report(filename):
+    """Load one committed SQL result for the hosted dashboard."""
+    with (RESULTS_DIR / filename).open(encoding="utf-8-sig", newline="") as file:
+        return [
+            {key: parse_csv_value(value) for key, value in row.items()}
+            for row in csv.DictReader(file)
+        ]
+
+
+def load_dashboard_data():
+    """Prefer SQLite locally and use committed SQL outputs in the cloud."""
+    if DATABASE_PATH.exists():
+        connection = sqlite3.connect(DATABASE_PATH)
+        connection.execute("PRAGMA foreign_keys = ON")
+
+        settings = connection.execute(
+            """
+            SELECT analysis_date, feed_version
+            FROM project_settings
+            WHERE id = 1
+            """
+        ).fetchone()
+        reports = [run_query(connection, query) for query in read_queries()]
+        return settings, reports, connection, "Local SQLite database"
+
+    missing_files = [
+        filename for filename in REPORT_FILES if not (RESULTS_DIR / filename).exists()
+    ]
+    if missing_files or not METADATA_PATH.exists():
+        missing = ", ".join(missing_files or [METADATA_PATH.name])
+        raise FileNotFoundError(f"Missing hosted report files: {missing}")
+
+    metadata = json.loads(METADATA_PATH.read_text(encoding="utf-8"))
+    reports = [load_csv_report(filename) for filename in REPORT_FILES]
+    settings = (metadata["analysis_date"], metadata["feed_version"])
+    return settings, reports, None, "Published SQL report snapshot"
 
 
 def format_date(value):
@@ -473,6 +538,11 @@ st.markdown(
             background: rgba(17, 29, 44, 0.7);
         }
 
+        div[data-testid="stExpander"] a {
+            color: var(--yellow);
+            font-weight: 600;
+        }
+
         div[data-testid="stDataFrame"] {
             border: 1px solid var(--line);
             border-radius: 12px;
@@ -515,24 +585,13 @@ st.markdown(
 )
 
 
-# Stop with a useful message instead of showing a technical SQLite error.
-if not DATABASE_PATH.exists():
-    st.error("Database not found. Run `python ingest.py` before opening the dashboard.")
+try:
+    settings, reports, connection, data_mode = load_dashboard_data()
+except (FileNotFoundError, KeyError, json.JSONDecodeError) as error:
+    st.error(str(error))
     st.stop()
 
-connection = sqlite3.connect(DATABASE_PATH)
-connection.execute("PRAGMA foreign_keys = ON")
-
-settings = connection.execute(
-    """
-    SELECT analysis_date, feed_version, downloaded_at
-    FROM project_settings
-    WHERE id = 1
-    """
-).fetchone()
-
-# SQL still calculates every report. Python only arranges the returned values.
-reports = [run_query(connection, query) for query in read_queries()]
+# SQL calculates every report. In hosted mode, the committed SQL outputs are read.
 peak_hour, platforms, destinations, frequencies, accessibility = reports
 
 
@@ -558,8 +617,8 @@ st.markdown(
             <span class="meta-value">{safe(format_date(settings[1]))}</span>
         </div>
         <div class="meta-item">
-            <span class="meta-label">Source</span>
-            <span class="meta-value">SNCB/NMBS Open Data</span>
+            <span class="meta-label">Dashboard mode</span>
+            <span class="meta-value">{safe(data_mode)}</span>
         </div>
     </div>
     """,
@@ -738,11 +797,13 @@ with st.expander("View route-level evidence"):
     )
 
 
-# Step 8 latest liveboard snapshot
+# Step 8 latest local liveboard snapshot
 
-latest_collection = connection.execute(
-    "SELECT MAX(collected_at) FROM live_departures"
-).fetchone()[0]
+latest_collection = None
+if connection is not None:
+    latest_collection = connection.execute(
+        "SELECT MAX(collected_at) FROM live_departures"
+    ).fetchone()[0]
 
 if latest_collection:
     live_rows = connection.execute(
@@ -796,12 +857,54 @@ if latest_collection:
 
     st.markdown("".join(live_cards), unsafe_allow_html=True)
 
-connection.close()
+if connection is not None:
+    connection.close()
+
+
+# Step 9 project and data notes
+
+with st.expander("About this dashboard"):
+    st.markdown(
+        f"""
+        ### About RailPulse
+
+        This dashboard presents Belgian railway schedule analysis for
+        **{format_date(settings[0])}**, based on the SNCB/NMBS GTFS feed released on
+        **{format_date(settings[1])}**.
+
+        The hosted version reads the SQL result files committed with the project.
+        This keeps the portfolio dashboard fast and reproducible without uploading
+        the large GTFS ZIP or local SQLite database.
+
+        To update the analysis, clone the project and run:
+
+        ```powershell
+        python ingest.py --date YYYY-MM-DD --download
+        python run_analysis.py
+        streamlit run dashboard.py
+        ```
+
+        The ingestion pipeline, normalized schema, analytical SQL, generated reports,
+        setup instructions, and limitations are available in the
+        [GitHub repository]({GITHUB_URL}).
+
+        Data is provided through the public SNCB/NMBS developer portal and open-data
+        services. Thanks to SNCB/NMBS for making the GTFS feed available. Developers
+        can consult the [Belgian Mobility data portal](https://data.belgianmobility.io/en/data.html)
+        for documentation and access. The optional local liveboard uses the public
+        [iRail API](https://docs.irail.be/).
+
+        **Important:** the hosted report is a dated schedule snapshot. It does not
+        refresh automatically. Running the pipeline locally downloads the current
+        feed and recreates the reports for a covered date.
+        """
+    )
 
 st.markdown(
     """
     <div style="margin-top:4rem;padding-top:1.2rem;border-top:1px solid #26384e;color:#71839a;font-size:.78rem;">
-        RailPulse · Schedule analysis powered by SQLite · Data from SNCB/NMBS Open Data and iRail
+        RailPulse · Schedule analysis powered by SQLite ·
+        <a href="https://github.com/IkarusV/Belgian-transit-SQL-analysis" target="_blank" style="color:#91a2b8;">View source on GitHub</a>
     </div>
     """,
     unsafe_allow_html=True,

@@ -177,6 +177,18 @@ streamlit run dashboard.py
 
 Streamlit prints a local URL, usually `http://localhost:8501`, which opens the dashboard in a browser.
 
+When `data/railpulse.db` is not available, the dashboard automatically uses the committed files in `results/`. This makes the dated report deployable on Streamlit Community Cloud without committing the large GTFS ZIP or SQLite database. Local mode still uses SQLite and can display collected iRail snapshots.
+
+### Streamlit Community Cloud
+
+The repository can be deployed directly from:
+
+```text
+https://github.com/IkarusV/Belgian-transit-SQL-analysis
+```
+
+Use `dashboard.py` as the Streamlit entry point. The hosted page shows the committed report snapshot. To publish newer data, run `ingest.py` and `run_analysis.py` locally, then commit the updated files in `results/`.
+
 ### 4. Collect a live snapshot
 
 ```powershell

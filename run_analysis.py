@@ -1,5 +1,7 @@
 import csv
+import json
 import sqlite3
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -58,6 +60,30 @@ def save_csv(name, columns, rows):
     print(f"saved {output_path}")
 
 
+def save_report_metadata(connection):
+    """Save the feed details needed by the database-free cloud dashboard."""
+    settings = connection.execute(
+        """
+        SELECT analysis_date, feed_version
+        FROM project_settings
+        WHERE id = 1
+        """
+    ).fetchone()
+
+    metadata = {
+        "analysis_date": settings[0],
+        "feed_version": settings[1],
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+
+    output_path = RESULTS_DIR / "report_metadata.json"
+    output_path.write_text(
+        json.dumps(metadata, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    print(f"saved {output_path}")
+
+
 # Step 3 run every analysis query
 
 def main():
@@ -103,6 +129,8 @@ def main():
         # Save the same untouched SQL result for the report/dashboard workflow.
         save_csv(name, columns, rows)
 
+    # Keep the hosted dashboard's date in sync with the generated CSV reports.
+    save_report_metadata(connection)
     connection.close()
 
 
