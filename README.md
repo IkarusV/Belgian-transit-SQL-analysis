@@ -37,6 +37,10 @@ https://api.irail.be/v1/liveboard
 
 Neither endpoint requires an API key for this level of use. Static GTFS contains planned schedules. iRail provides current delays, cancellations, and platforms.
 
+**Required attribution:** Source: SNCB – Open Data – 20 July 2026
+
+Live data source: [iRail API](https://docs.irail.be/).
+
 ## Architecture
 
 ```text
@@ -240,13 +244,20 @@ The current feed marks bicycle storage as available on every active train trip b
 
 ## Timeline
 
-The project was completed over five days:
+The project was completed over three days:
 
-- SQL and relational database concepts.
-- Data modeling and small SQL exercises.
-- SQLite schema and ingestion pipeline.
-- Analysis queries, dashboard, and live-data connection.
-- Testing, documentation, and bug fixing.
+- Day 1: SQL concepts, data modeling, and the SQLite schema.
+- Day 2: GTFS ingestion and analytical queries.
+- Day 3: Dashboard, live-data connection, testing, and documentation.
+
+## RailPulse Series
+
+This SQL analysis is the starting point of the four-part RailPulse project:
+
+- [Belgian Transit SQL Analysis](https://github.com/IkarusV/Belgian-transit-SQL-analysis)
+- [RailPulse Cloud Azure ETL](https://github.com/IkarusV/railpulse-cloud-azure)
+- [RailPulse Power BI Dashboard](https://github.com/IkarusV/railpulse-powerbi-dashboard)
+- [RailPulse AI](https://github.com/IkarusV/RailPulse-AI-Augmented-Intelligent-Insights-on-transit)
 
 ## Contributor
 
